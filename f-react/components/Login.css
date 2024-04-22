@@ -1,0 +1,53 @@
+    .images{
+        width: 600px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 100vh;
+        margin-right: 30px;
+    }
+    .card-bodys{
+        display: flex;
+    }
+
+    .imput{
+        width: 250px;
+        height: 40px;
+        flex-direction: column;
+    }
+    .passage{
+        color: rgba(105, 80, 242, 1);
+        margin-top: 30px;
+    }
+    .button{
+        width: 250px;
+        height: 40px;
+        align-items: center;
+        color:white;
+        background-color:	
+        rgb(52,156,2);
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    
+@media(max-width:600px){
+    .images{
+        width: 100%;
+
+    }
+    .card-bodys{
+        flex-direction: column;
+    }
+    .hoo{
+        margin-left: 20px;
+    }
+    .imput{
+        margin-left: 20px;
+    }
+    .passage{
+        margin-left: 20px;
+    }
+    .button{
+        margin-left: 20px;
+    }
+}
+ 

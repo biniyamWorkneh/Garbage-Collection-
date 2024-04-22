@@ -1,0 +1,49 @@
+.biniyam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh; /* Ensures the container takes up the full height of the viewport */
+  }
+  
+  .card {
+    width: 38rem;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    border-radius: 50px;
+  
+  }
+  .card-title{
+    text-align: center;
+  }
+   
+    .h5{
+      text-align: center;
+
+    }
+    .cards{
+        width: 18rem;
+        box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+        height: 15rem;
+        border-radius: 20px;
+        margin-left: 40px;
+    }
+    .card-body{
+      text-align: center;
+    }
+  @media (max-width:768px){
+    .biniyam{
+      height: auto;
+      padding:'10px'
+    }
+    .card{
+      border-radius: 20px;
+      width: 90%;
+      margin-top: 10px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .cards{
+      width: 90%;
+      height: auto;
+      margin: 0 auto 30px auto;
+    }
+  }

@@ -1,0 +1,21 @@
+.eshi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    margin-left: 220px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .images{
+    height: 35px;
+    border-radius: 50%;
+  }
+  .profile{
+    font-size: 30px;
+  }
+  .nav-list{
+    
+  }
+  
