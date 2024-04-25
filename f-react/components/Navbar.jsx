@@ -15,10 +15,10 @@ const Navbar = () => {
     }
   return (
     <nav>
-        <div className="logo" style={{fontSize:'40px',fontWeight:'bold',marginTop:'0px'}}>
+        <div className="logo" style={{fontSize:'35px',fontWeight:'bold',marginTop:'0px'}}>
         <img
           src={im}
-          style={{ width: "5rem", height: "4rem", }}
+          style={{ width: "4rem", height: "3rem", }}
           alt="logo"
         />
         Tsidat
